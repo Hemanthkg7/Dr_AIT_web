@@ -39,8 +39,9 @@ body {
   top: 8px;
   height: 60px;
   width: 100%;
-  border-radius: 8px;
-  padding-top:8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-top:9px;
   padding-bottom: 0px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -101,7 +102,8 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #00008b;
-  border-radius: 9px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
   
