@@ -25,18 +25,18 @@
 
 /*for header*/
 body {
-  padding-top: 0px;
   padding-bottom: 4rem;}
   
 .imglogo{
   height: auto;
   width: 100%;
-  background-color: #f6be00;
-  border-radius: 8px;}
+  border-radius: 8px;
+  border-collapse: collapse;}
+
 .topnav {
   overflow: hidden;
   background-color: #00008b;
-  top: 10px;
+  top: 8px;
   height: 60px;
   width: 100%;
   border-radius: 8px;
@@ -68,8 +68,8 @@ input[type=submit] {
   background-color: white;
   width: 5%;
   color:black;
-  padding: 12px 15px;
-  margin: 6px 0px;
+  padding: 10px 12px;
+  margin: 6px 10px;
   border-color: #00008b;
   border-radius: 20px;
   cursor: pointer;
@@ -85,7 +85,7 @@ input[type=text] {
   width: 20%;
   background-color:white ;
   color:black;
-  padding: 12px 15px;
+  padding: 10px 12px;
   margin: 6px 0px;
   border-color: #00008b;
   border-radius: 20px;
